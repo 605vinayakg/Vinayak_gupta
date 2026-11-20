@@ -1,0 +1,644 @@
+<title>Vinayak Gupta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Vinayak Gupta: mechanical engineer, former Senior Associate Manager at Maruti Suzuki India, Master in Management student at emlyon business school. Open to a 6-month internship from May 2027.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a blueprint-ruled engineering sheet. Cobalt is the drafting ink; signal orange is kept for outcomes, the moment people actually use the thing. */
+:root{
+  --paper:#f2f3f7; --surface:#ffffff; --ink:#10131c; --muted:#565d71; --line:#d9dce6;
+  --cobalt:#2a43c4; --cobalt-soft:#e5e8f8; --signal:#e8530f; --signal-soft:#fde9df;
+  --grid:rgba(42,67,196,.065); --shadow:0 1px 0 rgba(16,19,28,.04), 0 18px 40px -28px rgba(16,19,28,.35);
+  --f-display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0c0f17; --surface:#141927; --ink:#e8ebf3; --muted:#9aa2b7; --line:#252c3e;
+  --cobalt:#8c9dff; --cobalt-soft:#1c2340; --signal:#ff7a3d; --signal-soft:#2e1a12;
+  --grid:rgba(140,157,255,.06); --shadow:0 1px 0 rgba(0,0,0,.3), 0 18px 40px -28px rgba(0,0,0,.8); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0c0f17; --surface:#141927; --ink:#e8ebf3; --muted:#9aa2b7; --line:#252c3e;
+  --cobalt:#8c9dff; --cobalt-soft:#1c2340; --signal:#ff7a3d; --signal-soft:#2e1a12;
+  --grid:rgba(140,157,255,.06); --shadow:0 1px 0 rgba(0,0,0,.3), 0 18px 40px -28px rgba(0,0,0,.8); color-scheme:dark}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--paper)}
+h1,h2,h3,h4{margin:0;text-wrap:balance;font-weight:700}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--cobalt);outline-offset:3px;border-radius:6px}
+::selection{background:var(--cobalt-soft)}
+.num{font-variant-numeric:tabular-nums}
+
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media(min-width:768px){.wrap{padding-left:max(32px,env(safe-area-inset-left,0px));padding-right:max(32px,env(safe-area-inset-right,0px))}}
+
+.display{font-family:var(--f-display);font-stretch:72%;font-weight:800;letter-spacing:-.01em;line-height:.93;text-transform:uppercase}
+.eyebrow{font-family:var(--f-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.mono{font-family:var(--f-mono)}
+
+/* Header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--paper) 86%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .bar{display:flex;align-items:center;gap:24px;height:62px}
+.mark{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700}
+.mark b{display:grid;place-items:center;width:34px;height:34px;border:1.5px solid var(--ink);font-family:var(--f-display);font-stretch:80%;font-size:15px;letter-spacing:.02em}
+.mark span{font-size:15px}
+nav.links{display:flex;gap:4px;margin-left:auto}
+nav.links a{text-decoration:none;font-size:14px;color:var(--muted);padding:6px 10px;border-radius:999px;transition:color .15s,background .15s}
+nav.links a:hover{color:var(--ink)}
+nav.links a.on{color:var(--ink);background:var(--surface);box-shadow:inset 0 0 0 1px var(--line)}
+.top .cta-s{text-decoration:none;font-size:14px;font-weight:600;background:var(--ink);color:var(--paper);padding:8px 14px;border-radius:999px;white-space:nowrap}
+@media(max-width:860px){nav.links{display:none}.top .cta-s{margin-left:auto}}
+
+/* Hero */
+.hero{position:relative;padding-block:56px 40px;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;gap:40px;align-items:start}
+@media(min-width:980px){.hero-grid{grid-template-columns:minmax(0,1.35fr) minmax(0,.9fr);gap:56px}.hero{padding-block:88px 56px}}
+.status{display:inline-flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 10px;font-size:14px;color:var(--muted)}
+.status i{width:9px;height:9px;border-radius:50%;background:var(--signal);box-shadow:0 0 0 4px var(--signal-soft);animation:blink 2.4s ease-in-out infinite}
+@keyframes blink{50%{box-shadow:0 0 0 7px transparent}}
+.hero h1{margin-top:22px;font-size:clamp(2.9rem,8.4vw,6.4rem)}
+.hero h1 em{font-style:normal;color:var(--signal)}
+.lede{margin-top:24px;max-width:58ch;font-size:clamp(1.05rem,1.6vw,1.2rem);color:var(--muted)}
+.lede strong{color:var(--ink);font-weight:600}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:15px;padding:12px 20px;border-radius:999px;border:1.5px solid var(--ink);transition:transform .15s,background .15s,color .15s;cursor:pointer;background:transparent;color:var(--ink);font-family:inherit}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn svg{width:16px;height:16px}
+
+/* Spec plate */
+.plate{background:var(--surface);border:1.5px solid var(--ink);box-shadow:8px 8px 0 var(--cobalt-soft);position:relative}
+.plate-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 18px;border-bottom:1.5px solid var(--ink);font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.plate-head .stamp{color:var(--signal);border:1.5px solid currentColor;padding:2px 8px;transform:rotate(-3deg);font-weight:500}
+.plate dl{margin:0;display:grid;grid-template-columns:minmax(0,7.2rem) minmax(0,1fr)}
+.plate dt,.plate dd{margin:0;padding:11px 18px;border-bottom:1px solid var(--line);font-size:14.5px}
+.plate dt{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-right:1px solid var(--line);padding-top:13px}
+.plate dd{min-width:0}
+.plate dl > :nth-last-child(-n+2){border-bottom:0}
+
+/* Pipeline */
+.pipe{margin-top:56px}
+.pipe-label{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.pipe ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border:1.5px solid var(--ink);background:var(--surface)}
+.pipe li{padding:14px 14px 16px;border-right:1px solid var(--line);position:relative;min-width:0}
+.pipe li:last-child{border-right:0;background:var(--signal);color:#fff}
+.pipe li small{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;color:var(--muted)}
+.pipe li:last-child small{color:rgba(255,255,255,.85)}
+.pipe li strong{display:block;margin-top:4px;font-family:var(--f-display);font-stretch:80%;font-size:1.15rem;text-transform:uppercase;line-height:1.05}
+.pipe li span{display:block;margin-top:6px;font-size:13px;color:var(--muted);line-height:1.4}
+.pipe li:last-child span{color:rgba(255,255,255,.92)}
+@media(max-width:860px){.pipe ol{grid-template-columns:repeat(2,minmax(0,1fr))}.pipe li{border-bottom:1px solid var(--line)}.pipe li:nth-child(2n){border-right:0}.pipe li:nth-last-child(-n+2){border-bottom:0}}
+
+/* Sections */
+section.block{padding-block:84px;border-bottom:1px solid var(--line)}
+.sec-head{display:grid;gap:14px;margin-bottom:44px}
+@media(min-width:900px){.sec-head{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:end;gap:48px}}
+.sec-head h2{font-size:clamp(2.2rem,5.4vw,3.9rem)}
+.sec-head p{color:var(--muted);max-width:56ch}
+.sec-head .eyebrow{margin-bottom:12px;display:block}
+
+/* Impact */
+.impact-grid{display:grid;gap:28px}
+@media(min-width:960px){.impact-grid{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:40px}}
+.bigcard{background:var(--ink);color:var(--paper);padding:32px;display:flex;flex-direction:column;justify-content:space-between;gap:28px;min-height:100%;position:relative;overflow:hidden}
+.bigcard::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:24px 24px;pointer-events:none}
+:root[data-theme="dark"] .bigcard::after{background-image:linear-gradient(rgba(0,0,0,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.06) 1px,transparent 1px)}
+.bigcard .eyebrow{color:inherit;opacity:.7}
+.bignum{font-family:var(--f-display);font-stretch:68%;font-weight:800;font-size:clamp(5rem,13vw,9rem);line-height:.85;letter-spacing:-.02em}
+.bignum sup{font-size:.32em;vertical-align:top;margin-left:6px;letter-spacing:0;color:var(--signal);position:relative;top:.25em}
+.bigcard p.cap{font-size:1.05rem;max-width:34ch;opacity:.86}
+.bigcard .foot{font-family:var(--f-mono);font-size:12px;opacity:.65;position:relative}
+
+.chart{background:var(--surface);border:1px solid var(--line);padding:28px;box-shadow:var(--shadow)}
+.chart h3{font-size:1.05rem}
+.chart .sub{color:var(--muted);font-size:14px;margin-top:4px}
+.bars{margin-top:24px;display:grid;gap:18px}
+.bar-row{display:grid;gap:6px}
+.bar-row .lbl{display:flex;justify-content:space-between;gap:12px;font-size:14.5px}
+.bar-row .lbl b{font-family:var(--f-mono);font-weight:500;font-size:13.5px}
+.track{height:14px;background:var(--cobalt-soft);position:relative;overflow:hidden}
+.fill{position:absolute;inset:0 auto 0 0;background:var(--cobalt);transform-origin:left;animation:grow 1.1s cubic-bezier(.2,.7,.2,1) both}
+.bar-row:nth-child(2) .fill{animation-delay:.1s}.bar-row:nth-child(3) .fill{animation-delay:.2s}.bar-row:nth-child(4) .fill{animation-delay:.3s}
+@keyframes grow{from{transform:scaleX(0)}}
+.axis{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:11px;color:var(--muted);margin-top:8px;border-top:1px solid var(--line);padding-top:6px}
+
+.tiles{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:28px;grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:900px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.tiles{grid-template-columns:minmax(0,1fr)}}
+.tile{background:var(--surface);padding:22px 22px 24px;min-width:0}
+.tile .v{font-family:var(--f-display);font-stretch:75%;font-weight:800;font-size:2.4rem;line-height:1;text-transform:uppercase}
+.tile .v small{font-size:.5em;margin-left:2px}
+.tile p{margin-top:8px;font-size:14.5px;color:var(--muted)}
+
+/* Maruti */
+.role{display:grid;gap:24px;background:var(--surface);border:1.5px solid var(--ink);padding:28px;margin-bottom:28px}
+@media(min-width:900px){.role{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:40px}}
+.role h3{font-family:var(--f-display);font-stretch:80%;font-size:clamp(1.6rem,3vw,2.1rem);text-transform:uppercase;line-height:1}
+.role .meta{margin-top:10px;color:var(--muted);font-size:15px}
+.role .meta span{display:block}
+.ticks{display:grid;gap:12px}
+.ticks li{position:relative;padding-left:22px;font-size:15.5px}
+.ticks li::before{content:"";position:absolute;left:0;top:.62em;width:10px;height:2px;background:var(--cobalt)}
+
+.projects{display:grid;gap:20px}
+@media(min-width:900px){.projects{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.proj{background:var(--surface);border:1px solid var(--line);padding:26px;display:flex;flex-direction:column;gap:18px;transition:border-color .2s,transform .2s;box-shadow:var(--shadow);min-width:0}
+.proj:hover{border-color:var(--cobalt);transform:translateY(-3px)}
+.proj-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.proj .tag{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--cobalt);background:var(--cobalt-soft);padding:4px 9px;white-space:nowrap}
+.proj h4{font-family:var(--f-display);font-stretch:80%;font-size:1.65rem;text-transform:uppercase;line-height:1}
+.proj .scope{font-size:14px;color:var(--muted);margin-top:6px}
+.proj .ticks li{font-size:15px}
+.result{border-top:1px dashed var(--line);padding-top:16px;display:grid;gap:14px}
+.result .headline{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.result .headline b{font-family:var(--f-display);font-stretch:75%;font-weight:800;font-size:2.2rem;line-height:1;color:var(--signal)}
+.result .headline span{font-size:14.5px;color:var(--muted)}
+.meter{display:grid;gap:6px}
+.meter .m-lbl{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:11.5px;color:var(--muted);letter-spacing:.04em}
+.meter .m-track{height:8px;background:repeating-linear-gradient(90deg,var(--line) 0 1px,transparent 1px calc(100%/12));background-color:var(--paper);border:1px solid var(--line);position:relative}
+.meter .m-fill{position:absolute;inset:0 auto 0 0;background:var(--ink);transform-origin:left;animation:grow 1.2s .2s cubic-bezier(.2,.7,.2,1) both}
+
+.subhead{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:64px 0 22px;border-bottom:1.5px solid var(--ink);padding-bottom:12px}
+.subhead h3{font-family:var(--f-display);font-stretch:80%;font-size:1.8rem;text-transform:uppercase;line-height:1}
+.subhead p{color:var(--muted);font-size:14.5px}
+
+.cases{display:grid;gap:20px}
+@media(min-width:900px){.cases{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.case{border-top:3px solid var(--ink);padding-top:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.case .spec{display:flex;flex-wrap:wrap;gap:6px}
+.case .spec span{font-family:var(--f-mono);font-size:11.5px;border:1px solid var(--line);padding:3px 8px;color:var(--muted);background:var(--surface)}
+.case h4{font-size:1.15rem;line-height:1.3}
+.case p{font-size:15px;color:var(--muted)}
+.case .out{color:var(--ink);font-weight:600;font-size:15px}
+.case .out::before{content:"→ ";color:var(--signal)}
+
+.ledger{display:grid;border:1px solid var(--line);background:var(--surface)}
+.ledger li{display:grid;grid-template-columns:minmax(0,8.5rem) minmax(0,1fr);gap:20px;padding:16px 20px;border-bottom:1px solid var(--line);align-items:baseline}
+.ledger li:last-child{border-bottom:0}
+.ledger .amt{font-family:var(--f-display);font-stretch:78%;font-weight:800;font-size:1.5rem;text-transform:uppercase;line-height:1.1}
+.ledger p{font-size:15px}
+@media(max-width:520px){.ledger li{grid-template-columns:minmax(0,1fr);gap:4px}}
+
+.award{margin-top:28px;display:flex;gap:18px;align-items:center;background:var(--signal-soft);border:1px solid var(--signal);padding:18px 22px}
+.award svg{flex:none;width:34px;height:34px;color:var(--signal)}
+.award p{font-size:15.5px}
+.award b{display:block;font-size:1.05rem}
+
+/* Journey */
+.timeline{position:relative;display:grid;gap:0}
+.timeline::before{content:"";position:absolute;left:calc(5.5rem + 11px);top:8px;bottom:8px;width:2px;background:var(--line)}
+.t-item{display:grid;grid-template-columns:5.5rem 24px minmax(0,1fr);gap:0 18px;padding-bottom:30px;position:relative}
+.t-year{font-family:var(--f-mono);font-size:13px;color:var(--muted);padding-top:3px;text-align:right}
+.t-dot{width:14px;height:14px;border-radius:50%;background:var(--paper);border:2.5px solid var(--cobalt);margin:4px auto 0;position:relative;z-index:1}
+.t-item.big .t-dot{background:var(--cobalt)}
+.t-item.next .t-dot{border-color:var(--signal);background:var(--signal);box-shadow:0 0 0 5px var(--signal-soft)}
+.t-body{min-width:0}
+.t-body .kind{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--cobalt)}
+.t-item.next .kind{color:var(--signal)}
+.t-body h4{font-size:1.2rem;margin-top:2px;line-height:1.3}
+.t-body p{color:var(--muted);font-size:15px;margin-top:4px;max-width:66ch}
+.t-item.next .t-body{border:1.5px dashed var(--signal);padding:14px 18px;background:var(--surface)}
+@media(max-width:560px){.timeline::before{left:11px}.t-item{grid-template-columns:24px minmax(0,1fr);gap:0 14px}.t-year{grid-column:2;text-align:left;padding:0;order:-1}.t-dot{grid-row:1/span 2;grid-column:1}.t-body{grid-column:2}}
+
+/* Education */
+.edu{display:grid;gap:20px}
+@media(min-width:960px){.edu{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}}
+.edu-card{background:var(--surface);border:1px solid var(--line);padding:26px;min-width:0;display:flex;flex-direction:column;gap:14px}
+.edu-card.main{border:1.5px solid var(--ink);grid-row:span 2}
+.edu-card .when{font-family:var(--f-mono);font-size:12px;color:var(--muted);letter-spacing:.05em}
+.edu-card h3{font-size:1.3rem;line-height:1.25}
+.edu-card .deg{color:var(--cobalt);font-weight:600;font-size:15px}
+.courses{display:grid;gap:14px}
+.courses div{display:grid;gap:6px}
+.courses h5{margin:0;font-family:var(--f-mono);font-weight:500;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font-size:13.5px;padding:5px 11px;border:1px solid var(--line);border-radius:999px;background:var(--paper)}
+.score{display:flex;gap:24px;flex-wrap:wrap}
+.score div b{display:block;font-family:var(--f-display);font-stretch:75%;font-size:2rem;font-weight:800;line-height:1}
+.score div span{font-size:13px;color:var(--muted)}
+
+/* Skills */
+.skills{display:grid;gap:20px}
+@media(min-width:960px){.skills{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sk{background:var(--surface);border:1px solid var(--line);padding:24px;min-width:0;display:flex;flex-direction:column;gap:14px}
+.sk h3{font-size:1.05rem}
+.sk.wide{grid-column:1/-1}
+.sk .chips span{background:var(--surface)}
+.sk.wide .chips span{font-size:14.5px;padding:7px 14px}
+.lang{display:grid;gap:14px}
+.lang li{display:grid;gap:6px}
+.lang .row{display:flex;justify-content:space-between;font-size:15px}
+.lang .row em{font-style:normal;color:var(--muted);font-family:var(--f-mono);font-size:12.5px}
+.cefr{display:grid;grid-template-columns:repeat(6,1fr);gap:3px}
+.cefr i{height:6px;background:var(--line)}
+.cefr i.on{background:var(--cobalt)}
+.list{display:grid;gap:10px}
+.list li{font-size:15px;padding-left:18px;position:relative}
+.list li::before{content:"";position:absolute;left:0;top:.55em;width:7px;height:7px;border:1.5px solid var(--cobalt);transform:rotate(45deg)}
+
+/* Leadership */
+.lead{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);grid-template-columns:repeat(3,minmax(0,1fr));margin-top:20px}
+@media(max-width:900px){.lead{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.lead{grid-template-columns:minmax(0,1fr)}}
+.lead div{background:var(--surface);padding:20px;min-width:0}
+.lead small{font-family:var(--f-mono);font-size:11.5px;color:var(--muted)}
+.lead b{display:block;margin-top:4px}
+.lead p{font-size:14.5px;color:var(--muted);margin-top:4px}
+
+/* Contact */
+.contact{background:var(--ink);color:var(--paper);padding-block:88px;position:relative;overflow:hidden}
+.contact .grid{display:grid;gap:40px}
+@media(min-width:960px){.contact .grid{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:end}}
+.contact h2{font-size:clamp(2.8rem,8vw,6rem)}
+.contact h2 em{font-style:normal;color:var(--signal)}
+.contact .lede{color:inherit;opacity:.8}
+.seek{border:1.5px solid color-mix(in srgb,var(--paper) 35%,transparent);padding:24px;display:grid;gap:16px}
+.seek .r{display:grid;grid-template-columns:6.5rem minmax(0,1fr);gap:12px;font-size:15px}
+.seek .r span:first-child{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.65;padding-top:3px}
+.reach{display:grid;gap:12px;margin-top:36px}
+@media(min-width:700px){.reach{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.reach > *{border:1.5px solid color-mix(in srgb,var(--paper) 35%,transparent);padding:16px 18px;display:flex;flex-direction:column;gap:4px;min-width:0;text-decoration:none;color:inherit;background:transparent;font:inherit;text-align:left;transition:background .15s,border-color .15s}
+.reach > a:hover,.reach > button:hover{border-color:var(--paper)}
+.reach small{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.65}
+.reach b{font-weight:600;overflow-wrap:anywhere;user-select:all}
+.reach button{cursor:pointer}
+.reach .hint{font-size:12.5px;opacity:.7}
+footer{background:var(--ink);color:var(--paper);border-top:1px solid color-mix(in srgb,var(--paper) 18%,transparent);padding-block:22px;font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;opacity:.65}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.001ms!important;animation-delay:0s!important;transition-duration:.001ms!important}}
+</style>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="mark" href="#top" aria-label="Vinayak Gupta, back to top"><b>VG</b><span>Vinayak Gupta</span></a>
+    <nav class="links" aria-label="Sections">
+      <a href="#impact">Impact</a>
+      <a href="#experience">Experience</a>
+      <a href="#journey">Journey</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+    </nav>
+    <a class="cta-s" href="#contact">Contact</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="status"><i></i>Open to a 6-month internship from May 2027</span>
+        <h1 class="display">From the idea to the day people <em>actually use it.</em></h1>
+        <p class="lede">I'm <strong>Vinayak Gupta</strong>, a mechanical engineer who spent three years in emissions R&amp;D at <strong>Maruti Suzuki India</strong>, India's largest carmaker. I took four internal tools from business case to rollout, saving an estimated <strong>9,000 hours a year</strong>. Now I'm adding finance, strategy and management at <strong>emlyon business school</strong> in Lyon.</p>
+        <div class="btns">
+          <a class="btn primary" href="#contact">Get in touch
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          <a class="btn" href="https://www.linkedin.com/in/vinayakgupta095" target="_blank" rel="noopener">LinkedIn
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+        </div>
+      </div>
+
+      <aside class="plate" aria-label="Profile summary">
+        <div class="plate-head"><span>Spec sheet · VG</span><span class="stamp">Approved</span></div>
+        <dl>
+          <dt>Now</dt><dd>Master in Management, emlyon business school (1st year)</dd>
+          <dt>Before</dt><dd>Senior Associate Manager, Powertrain Calibration, Maruti Suzuki India</dd>
+          <dt>Trained as</dt><dd>B.Tech Mechanical Engineering, MNNIT Allahabad</dd>
+          <dt>Based in</dt><dd>Lyon, France</dd>
+          <dt>Seeking</dt><dd>Finance · Consulting · Product · Operations</dd>
+          <dt>Where</dt><dd>Europe</dd>
+          <dt>Available</dt><dd><b>May 2027</b>, 6 months</dd>
+        </dl>
+      </aside>
+    </div>
+
+    <div class="pipe" aria-label="How I run a project">
+      <div class="pipe-label"><span class="eyebrow">How I run every project</span><span class="eyebrow">Last mile highlighted</span></div>
+      <ol>
+        <li><small>01</small><strong>Spot the gap</strong><span>Missing data, manual hours, a rule change</span></li>
+        <li><small>02</small><strong>Business case</strong><span>Cost-benefit and payback from real spend</span></li>
+        <li><small>03</small><strong>Approval</strong><span>Division head, Executive Officer, Suzuki Japan</span></li>
+        <li><small>04</small><strong>Build</strong><span>Logic and scope; developers and suppliers build</span></li>
+        <li><small>05</small><strong>Train</strong><span>Sessions, manuals, standard formats</span></li>
+        <li><small>06</small><strong>In daily use</strong><span>The day people actually use it</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="impact">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow">Impact · Maruti Suzuki, 2023–2026</span><h2 class="display">Hours given back to engineers</h2></div>
+      <p>Four tools and process changes I started and led alongside my core certification work. Hour figures are estimates of time saved per year once each tool was in use.</p>
+    </div>
+
+    <div class="impact-grid">
+      <div class="bigcard">
+        <span class="eyebrow">Estimated hours saved per year</span>
+        <div>
+          <div class="bignum num"><span id="count" data-to="9000">9,000</span><sup>h/yr</sup></div>
+          <p class="cap" style="margin-top:16px">across four internal tools, from proof of concept to rollout.</p>
+        </div>
+        <div class="foot">Sum of tool estimates ≈ 9,100 h · rounded down</div>
+      </div>
+
+      <div class="chart">
+        <h3>Where the hours come from</h3>
+        <p class="sub">Estimated hours saved per year, by tool</p>
+        <div class="bars">
+          <div class="bar-row"><div class="lbl"><span>CO₂ analysis tool · 25 labs</span><b class="num">5,000</b></div><div class="track"><div class="fill" style="width:100%"></div></div></div>
+          <div class="bar-row"><div class="lbl"><span>Plug-and-play engine data logger · 5 sites</span><b class="num">2,000</b></div><div class="track"><div class="fill" style="width:40%"></div></div></div>
+          <div class="bar-row"><div class="lbl"><span>Data upgrader · two tools</span><b class="num">1,100</b></div><div class="track"><div class="fill" style="width:22%"></div></div></div>
+          <div class="bar-row"><div class="lbl"><span>Template consolidation</span><b class="num">1,000</b></div><div class="track"><div class="fill" style="width:20%"></div></div></div>
+        </div>
+        <div class="axis num"><span>0</span><span>1,250</span><span>2,500</span><span>3,750</span><span>5,000 h</span></div>
+      </div>
+    </div>
+
+    <div class="tiles">
+      <div class="tile"><div class="v num">25 <small>labs</small></div><p>About 50 users brought onto one CO₂ analysis method</p></div>
+      <div class="tile"><div class="v num">−90<small>%</small></div><p>R&amp;D presence needed at test sites after the data logger</p></div>
+      <div class="tile"><div class="v num">₹1M+</div><p>Projected yearly saving from the logger, payback about 1 year</p></div>
+      <div class="tile"><div class="v num">150→3</div><p>Variant document templates merged into masters</p></div>
+      <div class="tile"><div class="v num">40–50</div><p>Vehicle variants validated for official fuel economy declarations</p></div>
+      <div class="tile"><div class="v num">~7 <small>days</small></div><p>Delay held to, with about 100 vehicles a day of sales at risk</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="experience">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow">Experience</span><h2 class="display">Three years in emissions R&amp;D</h2></div>
+      <p>My core job was making sure vehicles met emissions rules before they could be sold. Around it, I built the tools and processes that made that work faster and more consistent.</p>
+    </div>
+
+    <div class="role">
+      <div>
+        <span class="eyebrow">Jun 2023 – Jun 2026 · Gurgaon, India</span>
+        <h3 style="margin-top:10px">Maruti Suzuki India Ltd</h3>
+        <p class="meta"><span>Senior Associate Manager</span><span>Powertrain Calibration (Emissions R&amp;D)</span></p>
+      </div>
+      <div>
+        <span class="eyebrow">Core responsibility · pre-homologation</span>
+        <ul class="ticks" style="margin-top:14px">
+          <li>Validated the CO₂ data behind the official fuel economy declaration for 40 to 50 vehicle variants across about 10 models, in a two-person team.</li>
+          <li>Weighed the risk of fuel economy penalties against the cost of over-declaring, and prepared an approval report for each model.</li>
+          <li>Used time-stamped records to show that a reported one-week data delay was in fact 1 to 2 days.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="projects">
+      <article class="proj">
+        <div class="proj-top"><div><h4>CO₂ analysis tool</h4><p class="scope">25 labs · ~50 users · 8 R&amp;D, 15 QA, 2 homologation</p></div><span class="tag">Automation</span></div>
+        <ul class="ticks">
+          <li>Owned the tool's logic: inputs, outputs and methods. The development team and junior engineers wrote the code.</li>
+          <li>Ran a proof of concept on 150 to 200 lab and variant combinations, argued for a full version and pitched it to the division head.</li>
+          <li>Trained users through three Teams sessions, procedure documents and a standard report format.</li>
+        </ul>
+        <div class="result">
+          <div class="headline"><b class="num">18→9 h</b><span>per set per stage · about 50% of the lab workflow automated</span></div>
+          <div class="meter"><div class="m-lbl"><span>Payback ≈ 7 months</span><span>~3,000 h to build</span></div><div class="m-track"><div class="m-fill" style="width:58.3%"></div></div></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top"><div><h4>Plug-and-play engine data logger</h4><p class="scope">5 sites · 10–12 QA testers trained</p></div><span class="tag">Business case</span></div>
+        <ul class="ticks">
+          <li>Built the cost-benefit case from 3 years of R&amp;D spend and won division-head approval.</li>
+          <li>Onboarded the supplier and agreed scope without sharing internal software; had the cable built in-house when the vendor's price was too high.</li>
+          <li>Wrote the procedure manual so each site could log trials on its own. Still running and being extended.</li>
+        </ul>
+        <div class="result">
+          <div class="headline"><b class="num">−90%</b><span>R&amp;D presence at test sites · ₹1M+ a year projected · ~2,000 h a year</span></div>
+          <div class="meter"><div class="m-lbl"><span>Payback ≈ 12 months</span><span>projected</span></div><div class="m-track"><div class="m-fill" style="width:100%"></div></div></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top"><div><h4>Data upgrader</h4><p class="scope">Two tools · phased release to ~10 users</p></div><span class="tag">Problem finding</span></div>
+        <ul class="ticks">
+          <li>Found missing parameters in the logger proof of concept that would have delayed rollout by an estimated 1 to 1.5 years.</li>
+          <li>Designed the logic of two tools that derive missing engine parameters, such as gear position and engine torque, from raw logged data. Junior engineers wrote the Python.</li>
+        </ul>
+        <div class="result">
+          <div class="headline"><b class="num">1,100 h</b><span>saved per year, about 500 hours to build</span></div>
+          <div class="meter"><div class="m-lbl"><span>Payback ≈ 6 months</span><span>~500 h to build</span></div><div class="m-track"><div class="m-fill" style="width:50%"></div></div></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-top"><div><h4>Template consolidation</h4><p class="scope">150 variant document templates</p></div><span class="tag">Process</span></div>
+        <ul class="ticks">
+          <li>Noticed that 150 variant templates differed mainly by software supplier.</li>
+          <li>Merged them into 3 master templates, cutting the work from a team of 4 to 1.</li>
+        </ul>
+        <div class="result">
+          <div class="headline"><b class="num">1,300→300 h</b><span>per year, estimated</span></div>
+          <div class="meter"><div class="m-lbl"><span>Idea to rollout ≈ 2–3 months</span><span>fastest of the four</span></div><div class="m-track"><div class="m-fill" style="width:20.8%"></div></div></div>
+        </div>
+      </article>
+    </div>
+    <p class="eyebrow" style="margin-top:14px">Meters run on a 12-month scale</p>
+
+    <div class="award">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="m15.5 12.9 1.5 8.6-5-3-5 3 1.5-8.6"/></svg>
+      <p><b>Quarterly Best Performance Award, Q1 FY2025-26</b>Maruti Suzuki India, for a workflow automation project with an external tool.</p>
+    </div>
+
+    <div class="subhead"><h3>Problem solving</h3><p>Root causes, traced and fixed at the source</p></div>
+    <div class="cases">
+      <div class="case">
+        <div class="spec"><span>4 labs</span><span>15–20 test runs</span><span>3–4 weeks</span></div>
+        <h4>A CO₂ certification deviation</h4>
+        <p>Traced it to a test part the procedure did not call out. The procedure was updated across all company labs, and test parts are now matched to the vehicle specification.</p>
+        <p class="out">Delay limited to about 7 days, with ~100 vehicles a day of sales at risk</p>
+      </div>
+      <div class="case">
+        <div class="spec"><span>Fault tree</span><span>Suzuki Motor Japan</span></div>
+        <h4>An emissions issue before production</h4>
+        <p>Ran a joint fault tree analysis with Suzuki Motor Japan and found a fuel learning problem across vehicles.</p>
+        <p class="out">Engine software update fixed it in about 15 days, before start of production</p>
+      </div>
+      <div class="case">
+        <div class="spec"><span>2 engine series</span><span>8 models</span><span>30 variants</span></div>
+        <h4>A new rule doubled a test</h4>
+        <p>When a canister test went from 1 to 2 days under a new rule, I ran a test lab for a month to cover the extra load.</p>
+        <p class="out">All 30 variants covered through the transition</p>
+      </div>
+    </div>
+
+    <div class="subhead"><h3>Suppliers, budget and stakeholders</h3><p>Getting a yes from people with other priorities</p></div>
+    <ul class="ledger">
+      <li><span class="amt num">₹3M</span><p>Took a data logger purchase to Executive Officer sign-off, and raised regular purchase orders for cables and harnesses.</p></li>
+      <li><span class="amt num">₹2.5M</span><p>Co-managed the team's annual budget with quarterly budget-vs-actual reviews.</p></li>
+      <li><span class="amt num">50 users</span><p>Wrote the approval case for a software licence bought from Suzuki Motor Japan, worked with procurement on the legal documents and negotiated access to a confidential encoder document.</p></li>
+      <li><span class="amt num">~6 params</span><p>Secured approval from Suzuki Motor Japan and the engine controller supplier to add parameters to a jointly owned source document, answering their cost concerns with standardisation and upcoming regulation.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="journey">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow">Journey · 2017 to 2027</span><h2 class="display">From Jewar to Lyon</h2></div>
+      <p>School in western Uttar Pradesh, engineering in Allahabad, three years on the shop floor of India's largest carmaker, and now business school in France. Travelled across 10+ Indian states along the way.</p>
+    </div>
+
+    <ol class="timeline" style="list-style:none;margin:0;padding:0">
+      <li class="t-item"><span class="t-year">2017</span><span class="t-dot"></span><div class="t-body"><span class="kind">School</span><h4>Yoga competition winner</h4><p>Won the yoga competition held at National Hospital, Delhi, on International Yoga Day.</p></div></li>
+      <li class="t-item big"><span class="t-year">2019</span><span class="t-dot"></span><div class="t-body"><span class="kind">School · Pragyan Public School, Jewar</span><h4>Class XII 90.8%, and 99/100 in Mathematics</h4><p>Top 1 percentile in JEE 2019, India's national engineering entrance exam.</p></div></li>
+      <li class="t-item"><span class="t-year">2019</span><span class="t-dot"></span><div class="t-body"><span class="kind">Engineering · MNNIT Allahabad</span><h4>Started B.Tech in Mechanical Engineering</h4><p>Robotics Club: built an Arduino line-follower robot and a gesture-controlled vehicle. Volunteered with Anokhi Pehel, teaching and mentoring underprivileged students.</p></div></li>
+      <li class="t-item"><span class="t-year">2021</span><span class="t-dot"></span><div class="t-body"><span class="kind">Leadership</span><h4>Electric bike prototype and a 7-member team</h4><p>SAE Club: managed selection, planning and design of an electric bike prototype in a 5-member team. Team leader at Love Care Foundation, running career awareness in local schools.</p></div></li>
+      <li class="t-item big"><span class="t-year">2022</span><span class="t-dot"></span><div class="t-body"><span class="kind">Internship · Dabur India, Delhi</span><h4>60 → 75 bottles a minute, with no new purchase</h4><p>Timed every stage of a syrup bottling line (4 machines, 8 operators) and traced the slowdown to a stop-and-push transfer. Proposed two curved conveyors already in stock; my mentor approved and implemented them after the internship, for a projected rise of about 25%.</p></div></li>
+      <li class="t-item"><span class="t-year">2022–23</span><span class="t-dot"></span><div class="t-body"><span class="kind">Academic project</span><h4>Designed and built a patient bed</h4><p>Used free-body and torque analysis to choose a screw and servo drive over hydraulic or pneumatic options. Fixed shaft seizure by redesigning the mounts and bearings, from concept to prototype within cost and manufacturing limits.</p></div></li>
+      <li class="t-item big"><span class="t-year">Jun 2023</span><span class="t-dot"></span><div class="t-body"><span class="kind">Industry · Maruti Suzuki India</span><h4>Joined Powertrain Calibration as Senior Associate Manager</h4><p>Pre-homologation and conformity-of-production support, then four internal tools that saved an estimated 9,000 hours a year.</p></div></li>
+      <li class="t-item"><span class="t-year">2025</span><span class="t-dot"></span><div class="t-body"><span class="kind">Recognition</span><h4>Quarterly Best Performance Award</h4><p>Q1 FY2025-26, for a workflow automation project with an external tool.</p></div></li>
+      <li class="t-item big"><span class="t-year">2026</span><span class="t-dot"></span><div class="t-body"><span class="kind">Business school · emlyon, Lyon</span><h4>Master in Management, and a case competition podium</h4><p>Moved to Lyon. First runner-up in the Business School Case Competition 2026, presenting a plant and logistics optimisation solution to a 100+ audience, among 500+ participants.</p></div></li>
+      <li class="t-item next"><span class="t-year">May 2027</span><span class="t-dot"></span><div class="t-body"><span class="kind">Next</span><h4>A 6-month internship in finance, consulting, product or operations</h4><p>In Europe, turning data and processes into decisions that teams actually use.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="block" id="education">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow">Education</span><h2 class="display">Engineering, then business</h2></div>
+      <p>A mechanical engineering degree gave me the technical side. The Master in Management adds finance, strategy and management on top of it.</p>
+    </div>
+    <div class="edu">
+      <div class="edu-card main">
+        <span class="when">Full degree programme · 1st year · expected March 2028</span>
+        <h3>emlyon business school, Lyon, France</h3>
+        <span class="deg">Master in Management</span>
+        <div class="courses">
+          <div><h5>Finance and accounting</h5><div class="chips"><span>Fundamentals of Finance</span><span>Corporate Finance</span><span>Financial Accounting</span><span>International Financial Reporting</span></div></div>
+          <div><h5>Data and research</h5><div class="chips"><span>Business Statistics</span><span>Research Methods</span></div></div>
+          <div><h5>Strategy and management</h5><div class="chips"><span>Strategy</span><span>Operations Management</span><span>Organisation and Management</span><span>Human Resource Management</span></div></div>
+          <div><h5>Marketing and economics</h5><div class="chips"><span>Principles of Marketing</span><span>Microeconomics</span><span>Macroeconomics</span></div></div>
+        </div>
+      </div>
+      <div class="edu-card">
+        <span class="when">Graduated May 2023</span>
+        <h3>Motilal Nehru National Institute of Technology (MNNIT) Allahabad</h3>
+        <span class="deg">B.Tech, Mechanical Engineering</span>
+        <div class="chips"><span>Industrial Engineering</span><span>Principles of Management</span><span>Economics</span><span>Numerical Methods and Statistics</span><span>Product Design and Development</span><span>Advanced Manufacturing</span><span>Sustainable Business Development</span><span>Automobile Engineering</span><span>Internal Combustion Engine</span></div>
+      </div>
+      <div class="edu-card">
+        <span class="when">2019</span>
+        <h3>Pragyan Public School, Jewar, India</h3>
+        <span class="deg">Class XII (CBSE)</span>
+        <div class="score"><div><b class="num">90.8%</b><span>overall</span></div><div><b class="num">99/100</b><span>Mathematics</span></div><div><b>Top 1%</b><span>JEE 2019</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="skills">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow">Skills and credentials</span><h2 class="display">What I bring to a team</h2></div>
+      <p>Skills built on real projects with budgets, suppliers and deadlines, plus the tools I'm adding through my Master's coursework.</p>
+    </div>
+    <div class="skills">
+      <div class="sk wide">
+        <h3>Core skills</h3>
+        <div class="chips"><span>Process Standardisation</span><span>Root Cause Analysis</span><span>Fault Tree Analysis</span><span>Cost-Benefit Analysis</span><span>Requirements Gathering</span><span>Proof of Concept</span><span>Change Management</span><span>Stakeholder Management</span><span>Vendor Management</span><span>Budget vs Actual</span><span>Process Documentation</span><span>Training and Knowledge Transfer</span></div>
+      </div>
+      <div class="sk">
+        <h3>Tools</h3>
+        <ul class="list"><li>MS Excel (Advanced)</li><li>PowerPoint, MS Office, Microsoft Teams</li><li>SQL, Power BI and Tableau, learned in my Master in Management coursework</li></ul>
+        <h3 style="margin-top:6px">Working with people</h3>
+        <ul class="list"><li>Structured communication</li><li>Senior stakeholder presentations</li><li>Cross-cultural collaboration with Suzuki Motor Japan</li><li>Vendor negotiation</li></ul>
+      </div>
+      <div class="sk">
+        <h3>Certifications</h3>
+        <ul class="list"><li>Data-Driven Decision Making</li><li>Bloomberg Finance Fundamentals</li><li>Bloomberg ESG</li><li>Investment Risk Management (Coursera project)</li><li>Portfolio Optimization using the Markowitz Model (Coursera project)</li></ul>
+      </div>
+      <div class="sk">
+        <h3>Languages</h3>
+        <ul class="lang">
+          <li><div class="row"><span>Hindi</span><em>Native</em></div><div class="cefr" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></li>
+          <li><div class="row"><span>English</span><em>Working proficiency</em></div><div class="cefr" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></li>
+          <li><div class="row"><span>French</span><em>A2 · learning in Lyon</em></div><div class="cefr" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i></div></li>
+        </ul>
+        <p class="eyebrow">Scale: A1 → C2</p>
+      </div>
+    </div>
+
+    <div class="subhead"><h3>Awards and activities</h3><p>Outside the day job</p></div>
+    <div class="lead">
+      <div><small>2026</small><b>First runner-up, Business School Case Competition</b><p>Plant and logistics optimisation, 500+ participants</p></div>
+      <div><small>Q1 FY2025-26</small><b>Quarterly Best Performance Award</b><p>Maruti Suzuki India, workflow automation</p></div>
+      <div><small>2019</small><b>Top 1 percentile, JEE</b><p>India's national engineering entrance exam</p></div>
+      <div><small>2021</small><b>Team Leader, Love Care Foundation</b><p>7-member team, career awareness in local schools</p></div>
+      <div><small>2021</small><b>SAE Club, MNNIT</b><p>Electric bike prototype, 5-member team</p></div>
+      <div><small>2019</small><b>Robotics Club and Anokhi Pehel</b><p>Arduino builds, and teaching underprivileged students</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <span class="eyebrow" style="color:inherit;opacity:.65">Contact</span>
+        <h2 class="display" style="margin-top:14px">Let's talk about <em>May 2027.</em></h2>
+        <p class="lede" style="margin-top:20px">I'm looking for a team where I can turn data and processes into decisions people actually use.</p>
+      </div>
+      <div class="seek">
+        <div class="r"><span>Role</span><span>6-month internship</span></div>
+        <div class="r"><span>Fields</span><span>Finance, consulting, product or operations</span></div>
+        <div class="r"><span>Location</span><span>Europe</span></div>
+        <div class="r"><span>Start</span><span>May 2027</span></div>
+      </div>
+    </div>
+    <div class="reach">
+      <button type="button" id="copyEmail" aria-label="Copy email address"><small>Email</small><b id="emailText">vinayak.gupta@edu.em-lyon.com</b><span class="hint" id="copyHint">Click to copy</span></button>
+      <a href="https://www.linkedin.com/in/vinayakgupta095" target="_blank" rel="noopener"><small>LinkedIn</small><b>linkedin.com/in/vinayakgupta095</b><span class="hint">Opens in a new tab ↗</span></a>
+      <div><small>Based in</small><b>Lyon, France</b><span class="hint">Central European Time</span></div>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap"><span>© 2026 Vinayak Gupta</span><span>Mechanical engineer · Master in Management, emlyon business school</span></div></footer>
+
+<script>
+(function(){
+  // Count-up on the headline number. The final value is already in the HTML, so the page reads correctly without this.
+  var el=document.getElementById('count');
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(el&&!reduce){
+    var to=+el.dataset.to,start=null,dur=1400;
+    function step(t){if(!start)start=t;var p=Math.min((t-start)/dur,1);var e=1-Math.pow(1-p,3);el.textContent=Math.round(to*e).toLocaleString('en-US');if(p<1)requestAnimationFrame(step);}
+    requestAnimationFrame(step);
+  }
+
+  // Copy email
+  var btn=document.getElementById('copyEmail'),hint=document.getElementById('copyHint'),txt=document.getElementById('emailText');
+  btn.addEventListener('click',function(){
+    var email=txt.textContent.trim();
+    function done(msg){hint.textContent=msg;setTimeout(function(){hint.textContent='Click to copy'},2200);}
+    function fallback(){var r=document.createRange();r.selectNodeContents(txt);var s=window.getSelection();s.removeAllRanges();s.addRange(r);done('Selected. Press Ctrl+C to copy');}
+    try{navigator.clipboard.writeText(email).then(function(){done('Copied');},fallback);}catch(e){fallback();}
+  });
+
+  // Highlight the current section in the nav
+  var links=[].slice.call(document.querySelectorAll('nav.links a'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+en.target.id);});}});
+    },{rootMargin:'-45% 0px -50% 0px'});
+    links.forEach(function(a){var s=document.querySelector(a.getAttribute('href'));if(s)io.observe(s);});
+  }
+})();
+</script>

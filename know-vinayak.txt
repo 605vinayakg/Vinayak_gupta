@@ -1,0 +1,414 @@
+﻿VINAYAK.G Contact →
+
+KnowVinayak
+
+New beginning
+MDI Gurgaon, 2026
+
+Disruptor and follower
+
+Bold ideas, grounded in discipline and adaptability. Engineer by foundation, business leader in the making.
+
+Vinayak Gupta · 2026
+
+From Jewar to Lyon
+
+A small town in western Uttar Pradesh, an engineering degree in Allahabad, three years at India's largest carmaker, and now a dual degree at MDI Gurgaon and emlyon business school. Next: creating impact through an internship in Europe from May 2027.
+
+Read the journey →
+
+[ My motto ]
+
+To bridge the gap between technology development and its implementation, to the last mile. I take a new tool from the idea and the business case to the day people actually use it.
+
+[ Vision ]
+
+Democratization of technology
+
+Technology only matters when it reaches the people who use it every day: the tester at a remote site, the engineer in the lab, the operator on the line. I want to make it simple, affordable and usable for all of them.
+
+[ Current goal ]
+
+Creating impact with an internship in Europe
+
+Six months from May 2027, in finance, consulting, product or operations, turning data and processes into decisions that teams actually use.
+
+[ By the numbers ]
+
+Over three years at Maruti Suzuki, alongside my core certification job, I started and led four internal tools. Here's what they added up to.
+
+9,000
+
+Hours a year
+
+Estimated time saved across four tools
+
+25
+
+Labs
+
+About 50 users moved onto one CO₂ analysis method
+
+−90%
+
+Site presence
+
+Less R&D time needed at test sites after the data logger
+
+₹1M+
+
+A year
+
+Projected saving from the logger, payback about one year
+
+The work
+
+Senior Associate Manager, Powertrain Calibration (Emissions R&D), Maruti Suzuki India · Jun 2023 to Jun 2026.
+
+India's largest carmaker · every vehicle had to pass emissions before it could be sold
+
+Where CO₂ gets measured
+emissions test cell
+
+Fan, rollers, analysers
+a test lab like the 25 I worked with
+
+[ Core job ]
+
+Pre-homologation
+
+I validated the CO₂ data behind the official fuel economy declaration for 40 to 50 vehicle variants across about 10 models, in a two-person team. For each model I weighed the risk of fuel economy penalties against the cost of over-declaring, and wrote the approval report.
+
+T1
+
+CO₂ analysis tool
+
+25 labs · ~50 users
+
+I owned the logic, ran a proof of concept on 150 to 200 lab and variant combinations, pitched it to the division head and trained every lab on one method.
+
+5,000 ha year · payback ~7 months
+
+T2
+
+Engine data logger
+
+Plug-and-play · 5 sites
+
+Built the business case from 3 years of R&D spend, onboarded the supplier, had the cable built in-house, and trained 10 to 12 QA testers. Still running and being extended.
+
+2,000 ha year · ₹1M+ projected
+
+T3
+
+Data upgrader
+
+Two tools · ~10 users
+
+Spotted missing parameters that would have delayed the logger rollout by 1 to 1.5 years, and designed tools that derive them from raw logged data.
+
+1,100 ha year · payback ~6 months
+
+T4
+
+Template merge
+
+150 → 3 templates
+
+Noticed that 150 variant templates differed mainly by software supplier, and merged them into 3 masters. The work went from a team of 4 to 1.
+
+1,000 ha year · live in 2–3 months
+
+[ Problem solving ]
+
+A CO₂ certification deviation
+
+Traced across 4 labs and 15 to 20 test runs to a test part the procedure didn't call out. The procedure changed in every company lab.
+
+Delay held to ~7 days, with ~100 cars a day of sales at risk.
+
+[ With Suzuki Japan ]
+
+A fault tree before production
+
+Ran a joint fault tree analysis with Suzuki Motor Japan and found a fuel learning problem across vehicles.
+
+Fixed by a software update in ~15 days, before start of production.
+
+[ Budget and people ]
+
+Getting to yes
+
+Took an INR 3M purchase to Executive Officer sign-off, co-managed an INR 2.5M team budget, and won Suzuki Japan's approval to change a shared source document.
+
+Quarterly Best Performance Award, Q1 FY2025-26.
+
+My journey
+
+Hover a year to see where I was.
+
+  2017
+
+  Won a yoga competition
+
+  At National Hospital, Delhi, on International Yoga Day.
+
+  2019
+
+  Class XII, 90.8%
+
+  99/100 in Mathematics. Top 1 percentile in JEE, India's national engineering entrance exam.
+
+  2019
+
+  MNNIT Allahabad
+
+  Started B.Tech in Mechanical Engineering. Built robots in the Robotics Club and taught children with Anokhi Pehel.
+
+  2021
+
+  An electric bike and a team of 7
+
+  SAE Club e-bike prototype. Team leader at Love Care Foundation, running career awareness in local schools.
+
+  2022
+
+  Dabur India internship
+
+  A bottling line from 60 to 75 bottles a minute, using two conveyors already in stock.
+
+  2023
+
+  Graduated, and built a patient bed
+
+  Final-year project: picked a screw and servo drive through torque analysis and fixed shaft seizure in the prototype.
+
+  2023
+
+  Joined Maruti Suzuki
+
+  Senior Associate Manager in Powertrain Calibration. Four tools, ~9,000 hours a year saved.
+
+  2025
+
+  Best Performance Award
+
+  Quarterly award, Q1 FY2025-26, for a workflow automation project.
+
+  2026
+
+  Back to the classroom
+
+  PGDM in International Business at MDI Gurgaon, a dual degree with a Master in Management at emlyon, Lyon. First runner-up in a case competition of 500+ participants.
+
+  2027
+
+  Next: a 6-month internship
+
+  From May, in Europe. Finance, consulting, product or operations.
+
+[ Who I am, outside the job title ]
+
+Engineer
+
+01Mechanical engineer from MNNIT. Emissions, calibration and engines for three years. First principles, always.
+
+Builder
+
+02Line-follower robots, a gesture-controlled car, an e-bike prototype and a patient bed.
+
+Mentor
+
+03Taught underprivileged students with Anokhi Pehel. Trained ~50 users across 25 labs.
+
+Traveller
+
+0410+ Indian states so far, and now France. Learning French (A2).
+
+Player
+
+05Badminton is my stress-buster. Yoga keeps me steady.
+
+Learner
+
+06From engine data to corporate finance. Bloomberg Finance and ESG certified.
+
+Beyond work
+
+The parts of my life that don't fit on a CV but explain how I work: discipline from yoga, patience from teaching, and curiosity from moving across a country and then a continent.
+
+A quiet minute
+main hall, MDI
+
+Under the trees
+campus avenue
+
+Chai breaks
+the campus café
+
+[ 2026 ] A new campus, a new language and a new degree, all at the same time.
+
+Movie nights
+
+Red brick
+grey skies
+
+New home
+
+2017 · Delhi
+
+Yoga
+
+Won the International Yoga Day competition at National Hospital.
+
+2019 · Allahabad
+
+Teaching
+
+Volunteered with Anokhi Pehel, mentoring underprivileged students.
+
+Stress-buster
+
+Badminton
+
+A court, a racket and an hour off. It's how I reset after a long day.
+
+Ongoing
+
+Exploring
+
+10+ Indian states, and now France. Hindi native, English for work, French at A2.
+
+Education
+
+Engineering gave me the technical side. The Master in Management adds finance, strategy and management.
+
+MNNIT Allahabad · 2019–23
+where the engineer was built
+
+MDI Gurgaon · 2026–28
+where the manager is being built
+
+2026 – 2028
+
+MDI Gurgaon
+
+PGDM, International Business · dual degree
+
+Management Development Institute, Gurgaon. Part of a dual-degree programme that includes a Master in Management year at emlyon business school.
+
+Dual degree
+
+emlyon business school
+
+Master in Management · Lyon, France
+
+Corporate Finance, Financial Accounting, International Financial Reporting, Business Statistics, Strategy, Operations Management, Marketing, Micro and Macroeconomics.
+
+2019 – 2023
+
+MNNIT Allahabad
+
+B.Tech, Mechanical Engineering
+
+Industrial Engineering, Principles of Management, Economics, Product Design and Development, Automobile Engineering, Internal Combustion Engines.
+
+2019
+
+Pragyan Public School
+
+Class XII (CBSE) · Jewar, India
+
+90.8% overall, 99/100 in Mathematics. Top 1 percentile in JEE 2019.
+
+[ Core skills ]
+
+  Root cause and fault tree analysis
+
+  Cost-benefit analysis
+
+  Proof of concept
+
+  Change and stakeholder management
+
+  Vendor management
+
+  Budget vs actual
+
+  Training and documentation
+
+[ Tools ]
+
+  MS Excel Advanced
+
+  PowerPoint and MS Office
+
+  SQL MiM coursework
+
+  Power BI MiM coursework
+
+  Tableau MiM coursework
+
+[ Positions of responsibility ]
+
+  Team Leader, Love Care Foundation 2021
+
+  SAE Club, e-bike prototype 2021
+
+  Volunteer, Anokhi Pehel 2019
+
+  Robotics Club, MNNIT 2019
+
+  Co-owner, ₹2.5M team budget Maruti
+
+[ Hobbies ]
+
+  Badminton stress-buster
+
+  Yoga 2017 winner
+
+  Travel 10+ states
+
+  Movies
+
+[ Certifications & languages ]
+
+  Data-Driven Decision Making
+
+  Bloomberg Finance Fundamentals
+
+  Bloomberg ESG
+
+  Investment Risk Management
+
+  Portfolio Optimization (Markowitz)
+
+  Hindi Native
+
+  English Working
+
+  French A2
+
+From Jewar to LyonAutomobile engines to business enginesDemocratizing technologyDisruptor and follower From Jewar to LyonAutomobile engines to business enginesDemocratizing technologyDisruptor and follower
+
+[ Contact ]
+
+Let's build something people actually use.
+
+Connect on LinkedIn →
+
+Phone+91 97614 05051
+
+LinkedInlinkedin.com/in/vinayakgupta095 ↗
+
+Based inLyon, France
+
+Looking for6-month internship from May 2027 · finance, consulting, product or operations
+
+WhereEurope
+
+VisionDemocratization of technology
+
+Vinayak Gupta
+
+© 2026 Vinayak GuptaLyon · Gurgaon · Jewar

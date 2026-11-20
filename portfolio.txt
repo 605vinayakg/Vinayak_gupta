@@ -1,0 +1,464 @@
+﻿VGVinayak Gupta Contact
+
+Open to a 6-month internship from May 2027
+
+From the idea to the day people actually use it.
+
+I'm Vinayak Gupta, a mechanical engineer who spent three years in emissions R&D at Maruti Suzuki India, India's largest carmaker. I took four internal tools from business case to rollout, saving an estimated 9,000 hours a year. Now I'm adding finance, strategy and management at emlyon business school in Lyon.
+
+Get in touchLinkedIn
+
+Spec sheet · VGApproved
+
+Now
+
+  Master in Management, emlyon business school (1st year)
+
+Before
+
+  Senior Associate Manager, Powertrain Calibration, Maruti Suzuki India
+
+Trained as
+
+  B.Tech Mechanical Engineering, MNNIT Allahabad
+
+Based in
+
+  Lyon, France
+
+Seeking
+
+  Finance · Consulting · Product · Operations
+
+Where
+
+  Europe
+
+Available
+
+  May 2027, 6 months
+
+How I run every projectLast mile highlighted
+
+1. 01Spot the gapMissing data, manual hours, a rule change
+2. 02Business caseCost-benefit and payback from real spend
+3. 03ApprovalDivision head, Executive Officer, Suzuki Japan
+4. 04BuildLogic and scope; developers and suppliers build
+5. 05TrainSessions, manuals, standard formats
+6. 06In daily useThe day people actually use it
+
+Impact · Maruti Suzuki, 2023–2026
+
+Hours given back to engineers
+
+Four tools and process changes I started and led alongside my core certification work. Hour figures are estimates of time saved per year once each tool was in use.
+
+Estimated hours saved per year
+
+9,000h/yr
+
+across four internal tools, from proof of concept to rollout.
+
+Sum of tool estimates ≈ 9,100 h · rounded down
+
+Where the hours come from
+
+Estimated hours saved per year, by tool
+
+CO₂ analysis tool · 25 labs5,000
+
+Plug-and-play engine data logger · 5 sites2,000
+
+Data upgrader · two tools1,100
+
+Template consolidation1,000
+
+01,2502,5003,7505,000 h
+
+25 labs
+
+About 50 users brought onto one CO₂ analysis method
+
+−90%
+
+R&D presence needed at test sites after the data logger
+
+₹1M+
+
+Projected yearly saving from the logger, payback about 1 year
+
+150→3
+
+Variant document templates merged into masters
+
+40–50
+
+Vehicle variants validated for official fuel economy declarations
+
+~7 days
+
+Delay held to, with about 100 vehicles a day of sales at risk
+
+Experience
+
+Three years in emissions R&D
+
+My core job was making sure vehicles met emissions rules before they could be sold. Around it, I built the tools and processes that made that work faster and more consistent.
+
+Jun 2023 – Jun 2026 · Gurgaon, India
+
+Maruti Suzuki India Ltd
+
+Senior Associate ManagerPowertrain Calibration (Emissions R&D)
+
+Core responsibility · pre-homologation
+
+  Validated the CO₂ data behind the official fuel economy declaration for 40 to 50 vehicle variants across about 10 models, in a two-person team.
+
+  Weighed the risk of fuel economy penalties against the cost of over-declaring, and prepared an approval report for each model.
+
+  Used time-stamped records to show that a reported one-week data delay was in fact 1 to 2 days.
+
+CO₂ analysis tool
+
+25 labs · ~50 users · 8 R&D, 15 QA, 2 homologation
+
+Automation
+
+  Owned the tool's logic: inputs, outputs and methods. The development team and junior engineers wrote the code.
+
+  Ran a proof of concept on 150 to 200 lab and variant combinations, argued for a full version and pitched it to the division head.
+
+  Trained users through three Teams sessions, procedure documents and a standard report format.
+
+18→9 hper set per stage · about 50% of the lab workflow automated
+
+Payback ≈ 7 months~3,000 h to build
+
+Plug-and-play engine data logger
+
+5 sites · 10–12 QA testers trained
+
+Business case
+
+  Built the cost-benefit case from 3 years of R&D spend and won division-head approval.
+
+  Onboarded the supplier and agreed scope without sharing internal software; had the cable built in-house when the vendor's price was too high.
+
+  Wrote the procedure manual so each site could log trials on its own. Still running and being extended.
+
+−90%R&D presence at test sites · ₹1M+ a year projected · ~2,000 h a year
+
+Payback ≈ 12 monthsprojected
+
+Data upgrader
+
+Two tools · phased release to ~10 users
+
+Problem finding
+
+  Found missing parameters in the logger proof of concept that would have delayed rollout by an estimated 1 to 1.5 years.
+
+  Designed the logic of two tools that derive missing engine parameters, such as gear position and engine torque, from raw logged data. Junior engineers wrote the Python.
+
+1,100 hsaved per year, about 500 hours to build
+
+Payback ≈ 6 months~500 h to build
+
+Template consolidation
+
+150 variant document templates
+
+Process
+
+  Noticed that 150 variant templates differed mainly by software supplier.
+
+  Merged them into 3 master templates, cutting the work from a team of 4 to 1.
+
+1,300→300 hper year, estimated
+
+Idea to rollout ≈ 2–3 monthsfastest of the four
+
+Meters run on a 12-month scale
+
+Quarterly Best Performance Award, Q1 FY2025-26Maruti Suzuki India, for a workflow automation project with an external tool.
+
+Problem solving
+
+Root causes, traced and fixed at the source
+
+4 labs15–20 test runs3–4 weeks
+
+A CO₂ certification deviation
+
+Traced it to a test part the procedure did not call out. The procedure was updated across all company labs, and test parts are now matched to the vehicle specification.
+
+Delay limited to about 7 days, with ~100 vehicles a day of sales at risk
+
+Fault treeSuzuki Motor Japan
+
+An emissions issue before production
+
+Ran a joint fault tree analysis with Suzuki Motor Japan and found a fuel learning problem across vehicles.
+
+Engine software update fixed it in about 15 days, before start of production
+
+2 engine series8 models30 variants
+
+A new rule doubled a test
+
+When a canister test went from 1 to 2 days under a new rule, I ran a test lab for a month to cover the extra load.
+
+All 30 variants covered through the transition
+
+Suppliers, budget and stakeholders
+
+Getting a yes from people with other priorities
+
+  ₹3M
+
+  Took a data logger purchase to Executive Officer sign-off, and raised regular purchase orders for cables and harnesses.
+
+  ₹2.5M
+
+  Co-managed the team's annual budget with quarterly budget-vs-actual reviews.
+
+  50 users
+
+  Wrote the approval case for a software licence bought from Suzuki Motor Japan, worked with procurement on the legal documents and negotiated access to a confidential encoder document.
+
+  ~6 params
+
+  Secured approval from Suzuki Motor Japan and the engine controller supplier to add parameters to a jointly owned source document, answering their cost concerns with standardisation and upcoming regulation.
+
+Journey · 2017 to 2027
+
+From Jewar to Lyon
+
+School in western Uttar Pradesh, engineering in Allahabad, three years on the shop floor of India's largest carmaker, and now business school in France. Travelled across 10+ Indian states along the way.
+
+  2017
+
+  School
+
+  Yoga competition winner
+
+  Won the yoga competition held at National Hospital, Delhi, on International Yoga Day.
+
+  2019
+
+  School · Pragyan Public School, Jewar
+
+  Class XII 90.8%, and 99/100 in Mathematics
+
+  Top 1 percentile in JEE 2019, India's national engineering entrance exam.
+
+  2019
+
+  Engineering · MNNIT Allahabad
+
+  Started B.Tech in Mechanical Engineering
+
+  Robotics Club: built an Arduino line-follower robot and a gesture-controlled vehicle. Volunteered with Anokhi Pehel, teaching and mentoring underprivileged students.
+
+  2021
+
+  Leadership
+
+  Electric bike prototype and a 7-member team
+
+  SAE Club: managed selection, planning and design of an electric bike prototype in a 5-member team. Team leader at Love Care Foundation, running career awareness in local schools.
+
+  2022
+
+  Internship · Dabur India, Delhi
+
+  60 → 75 bottles a minute, with no new purchase
+
+  Timed every stage of a syrup bottling line (4 machines, 8 operators) and traced the slowdown to a stop-and-push transfer. Proposed two curved conveyors already in stock; my mentor approved and implemented them after the internship, for a projected rise of about 25%.
+
+  2022–23
+
+  Academic project
+
+  Designed and built a patient bed
+
+  Used free-body and torque analysis to choose a screw and servo drive over hydraulic or pneumatic options. Fixed shaft seizure by redesigning the mounts and bearings, from concept to prototype within cost and manufacturing limits.
+
+  Jun 2023
+
+  Industry · Maruti Suzuki India
+
+  Joined Powertrain Calibration as Senior Associate Manager
+
+  Pre-homologation and conformity-of-production support, then four internal tools that saved an estimated 9,000 hours a year.
+
+  2025
+
+  Recognition
+
+  Quarterly Best Performance Award
+
+  Q1 FY2025-26, for a workflow automation project with an external tool.
+
+  2026
+
+  Business school · emlyon, Lyon
+
+  Master in Management, and a case competition podium
+
+  Moved to Lyon. First runner-up in the Business School Case Competition 2026, presenting a plant and logistics optimisation solution to a 100+ audience, among 500+ participants.
+
+  May 2027
+
+  Next
+
+  A 6-month internship in finance, consulting, product or operations
+
+  In Europe, turning data and processes into decisions that teams actually use.
+
+Education
+
+Engineering, then business
+
+A mechanical engineering degree gave me the technical side. The Master in Management adds finance, strategy and management on top of it.
+
+Full degree programme · 1st year · expected March 2028
+
+emlyon business school, Lyon, France
+
+Master in Management
+
+Finance and accounting
+
+Fundamentals of FinanceCorporate FinanceFinancial AccountingInternational Financial Reporting
+
+Data and research
+
+Business StatisticsResearch Methods
+
+Strategy and management
+
+StrategyOperations ManagementOrganisation and ManagementHuman Resource Management
+
+Marketing and economics
+
+Principles of MarketingMicroeconomicsMacroeconomics
+
+Graduated May 2023
+
+Motilal Nehru National Institute of Technology (MNNIT) Allahabad
+
+B.Tech, Mechanical Engineering
+
+Industrial EngineeringPrinciples of ManagementEconomicsNumerical Methods and StatisticsProduct Design and DevelopmentAdvanced ManufacturingSustainable Business DevelopmentAutomobile EngineeringInternal Combustion Engine
+
+2019
+
+Pragyan Public School, Jewar, India
+
+Class XII (CBSE)
+
+90.8%overall
+
+99/100Mathematics
+
+Top 1%JEE 2019
+
+Skills and credentials
+
+What I bring to a team
+
+Skills built on real projects with budgets, suppliers and deadlines, plus the tools I'm adding through my Master's coursework.
+
+Core skills
+
+Process StandardisationRoot Cause AnalysisFault Tree AnalysisCost-Benefit AnalysisRequirements GatheringProof of ConceptChange ManagementStakeholder ManagementVendor ManagementBudget vs ActualProcess DocumentationTraining and Knowledge Transfer
+
+Tools
+
+  MS Excel (Advanced)
+
+  PowerPoint, MS Office, Microsoft Teams
+
+  SQL, Power BI and Tableau, learned in my Master in Management coursework
+
+Working with people
+
+  Structured communication
+
+  Senior stakeholder presentations
+
+  Cross-cultural collaboration with Suzuki Motor Japan
+
+  Vendor negotiation
+
+Certifications
+
+  Data-Driven Decision Making
+
+  Bloomberg Finance Fundamentals
+
+  Bloomberg ESG
+
+  Investment Risk Management (Coursera project)
+
+  Portfolio Optimization using the Markowitz Model (Coursera project)
+
+Languages
+
+  HindiNative
+
+  EnglishWorking proficiency
+
+  FrenchA2 · learning in Lyon
+
+Scale: A1 → C2
+
+Awards and activities
+
+Outside the day job
+
+2026First runner-up, Business School Case Competition
+
+Plant and logistics optimisation, 500+ participants
+
+Q1 FY2025-26Quarterly Best Performance Award
+
+Maruti Suzuki India, workflow automation
+
+2019Top 1 percentile, JEE
+
+India's national engineering entrance exam
+
+2021Team Leader, Love Care Foundation
+
+7-member team, career awareness in local schools
+
+2021SAE Club, MNNIT
+
+Electric bike prototype, 5-member team
+
+2019Robotics Club and Anokhi Pehel
+
+Arduino builds, and teaching underprivileged students
+
+Contact
+
+Let's talk about May 2027.
+
+I'm looking for a team where I can turn data and processes into decisions people actually use.
+
+Role6-month internship
+
+FieldsFinance, consulting, product or operations
+
+LocationEurope
+
+StartMay 2027
+
+LinkedInlinkedin.com/in/vinayakgupta095Opens in a new tab ↗
+
+Based inLyon, FranceCentral European Time
+
+© 2026 Vinayak GuptaMechanical engineer · Master in Management, emlyon business school
